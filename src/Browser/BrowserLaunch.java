@@ -17,7 +17,7 @@ public class BrowserLaunch {
 		WebDriver driver = new ChromeDriver(options);
 		//WebDriver driver = new EdgeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.amazon.com/?tag=amazusnavi-20&hvadid=675149237887&hvpos=&hvnetw=g&hvrand=8472667352365290604&hvpone=&hvptwo=&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9005932&hvtargid=kwd-10573980&ref=pd_sl_7j18redljs_e&hydadcr=28883_14649097");
+		driver.get("https://www.amazon.com");
 		//WebDriver driver1 = new EdgeDriver();
 		
 		// TODO Auto-generated method stub
